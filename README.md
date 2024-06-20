@@ -14,3 +14,9 @@ export ICS_URL=<link http do kalendarza w formacie ICS>
 ```
 
 instalacja zaleznosci przez `npm install` i uruchomienie przez `node main.mjs`
+
+## Uwagi
+
+Kod nie posiada ŻADNYCH zabezpieczeń przed prompt injection i command injection i nie powinien być używany produkcyjnie, w szczególności nie powinien być używany w sytuacjach gdy interakcja jest inicjowana przez osobę trzecią.
+
+Kod został publikowany jako demonstracja i baza pod dalszą rozbudowę.
