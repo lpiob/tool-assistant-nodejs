@@ -12,3 +12,5 @@ export TAVILY_API_KEY=<api key od tavily>
 export OPENAI_API_KEY=<api key od openai>
 export ICS_URL=<link http do kalendarza w formacie ICS>
 ```
+
+instalacja zaleznosci przez `npm install` i uruchomienie przez `node main.mjs`
